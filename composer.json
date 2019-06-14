@@ -1,8 +1,8 @@
 {
-  "name": "yozh/sf4-template-bundle",
+  "name": "yozh/sf4-sandbox-bundle",
   "description": "Description of Bundle",
   "type": "symfony-bundle",
-  "keywords": ["sf4","extension","template-bundle"],
+  "keywords": ["sf4","extension","sandbox-bundle"],
   "license": "MIT",
   "authors": [
     {
@@ -24,12 +24,12 @@
   },
   "autoload": {
     "psr-4": {
-      "yozh\\template-bundle\\": "src"
+      "yozh\\sandbox-bundle\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "yozh\\template-bundle\\Tests\\": "tests"
+      "yozh\\sandbox-bundle\\Tests\\": "tests"
     }
   }
 }
