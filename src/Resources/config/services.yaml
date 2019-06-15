@@ -1,4 +1,12 @@
 services:
-  'yozh\SandboxBundle\Service\SanboxService':
-      class: yozh\SandboxBundle\Service\SanboxService
-      autowire: true
+
+  'yozh\SandboxBundle\Service\SanboxPublicService':
+    class: yozh\SandboxBundle\Service\SanboxPublicService
+    public: true
+    autowire: true
+
+  'yozh\SandboxBundle\Service\SanboxPrivateService':
+    class: yozh\SandboxBundle\Service\SanboxPrivateService
+    public: false
+    arguments:
+      - '@logger'

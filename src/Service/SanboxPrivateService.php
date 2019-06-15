@@ -8,7 +8,7 @@ use Psr\Log\LoggerInterface;
  * Class SanboxService
  * @package yozh\SandboxBundle\Service
  */
-class SanboxService
+class SanboxPrivateService
 {
     /**
      * SanboxService constructor.
@@ -21,7 +21,7 @@ class SanboxService
     
     public function hello()
     {
-        $this->logger->info('Hello from SanboxService');
+        $this->logger->info('Hello from SanboxPrivateService');
     }
     
     public function test()
