@@ -1,1 +1,4 @@
----
+services:
+  'yozh\SandboxBundle\Service\SanboxService':
+      class: yozh\SandboxBundle\Service\SanboxService
+      autowire: true
